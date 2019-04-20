@@ -1,0 +1,17 @@
+{
+  "name": "reason-example",
+  "version": "0.1.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "fmt": "bsrefmt --in-place src/*.re",
+    "clean": "rm -rf dist lib .merlin .cache"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.3",
+    "bsb-js": "^1.1.7",
+    "bucklescript-tea": "^0.11.2"
+  }
+}
